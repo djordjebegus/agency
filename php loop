@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Agency</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<style>
+</style>
+
+<body>
+              <!-- nav -->
+    <nav class="sticky">
+
+       <div class="container">
+           <a href="#" class="logo">Agency</a>
+           <ul>
+           <li><a href="#">Home</a></li>
+           <li><a href="#aboutUs">About me</a></li>
+           <li><a href="#">Servis</a></li>
+            <li><a href="#">Contact</a></li>   
+           </ul>
+ 
+       </div>
+    </nav>
+    
+             <!-- header -->
+    
+    <header class="mainHeader">
+        <div class="container">
+          <article>
+            <div class="typingHeader"></div>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              </p>
+              <button>more about us</button>
+          </article>
+          <article>
+            <img src="img/slika3.jpg" >
+          </article>
+        
+        
+        
+        </div>     
+    </header>
+    
+     <!-- about us -->
+    
+    <article id="aboutUs">
+        <div class="container" >
+            <article>
+                
+                
+                <h2>About Us</h2>
+             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              </p>
+              <button>more about us</button>
+            </article>
+            <article><img src="img/slika4.jpg">
+            </article>
+        
+        </div>
+   
+    </article>
+    
+    <!-- servis -->
+    
+    <article class="servis">
+      
+    <h3>Servis</h3>
+        <div class="container divservis">
+          <article class="one">
+          <div class="gifservis"></div>
+              <div>
+              <h4>Web dizajn</h4>
+                  <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                  <button>more about </button>
+              </div>  
+          </article>
+           <article class="one">
+          <div class="gifservis"></div>
+              <div>
+              <h4>Web dizajn</h4>
+                  <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                  <button>more about </button>
+              </div>  
+          </article>
+          <article class="one">
+          <div class="gifservis"></div>
+              <div>
+              <h4>Web dizajn</h4>
+                  <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                  <button>more about </button>
+              </div>  
+          </article>
+       </div> 
+    </article>
+    
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>   
+<script src="man.js"></script>
+</body>
+</html>
